@@ -1,0 +1,929 @@
+[
+  {
+    "id": 1,
+    "label": "salary",
+    "note": "monthly salary",
+    "category": "income",
+    "type": "income",
+    "amount": "5000",
+    "date": "2024-06-25"
+  },
+  {
+    "id": 2,
+    "label": "groceries",
+    "note": "weekly grocery shopping",
+    "category": "food",
+    "type": "expense",
+    "amount": "150",
+    "date": "2024-06-24"
+  },
+  {
+    "id": 3,
+    "label": "electricity bill",
+    "note": "monthly electricity bill",
+    "category": "utilities",
+    "type": "expense",
+    "amount": "100",
+    "date": "2024-06-23"
+  },
+  {
+    "id": 4,
+    "label": "freelance work",
+    "note": "payment for freelance project",
+    "category": "income",
+    "type": "income",
+    "amount": "800",
+    "date": "2024-06-22"
+  },
+  {
+    "id": 5,
+    "label": "rent",
+    "note": "monthly rent payment",
+    "category": "housing",
+    "type": "expense",
+    "amount": "1200",
+    "date": "2024-06-21"
+  },
+  {
+    "id": 6,
+    "label": "gym membership",
+    "note": "monthly gym fee",
+    "category": "health",
+    "type": "expense",
+    "amount": "50",
+    "date": "2024-06-20"
+  },
+  {
+    "id": 7,
+    "label": "restaurant",
+    "note": "dinner at a restaurant",
+    "category": "food",
+    "type": "expense",
+    "amount": "75",
+    "date": "2024-06-19"
+  },
+  {
+    "id": 8,
+    "label": "internet bill",
+    "note": "monthly internet bill",
+    "category": "utilities",
+    "type": "expense",
+    "amount": "60",
+    "date": "2024-06-18"
+  },
+  {
+    "id": 9,
+    "label": "transport",
+    "note": "public transport pass",
+    "category": "transport",
+    "type": "expense",
+    "amount": "40",
+    "date": "2024-06-17"
+  },
+  {
+    "id": 10,
+    "label": "office supplies",
+    "note": "stationery items for office",
+    "category": "work",
+    "type": "expense",
+    "amount": "30",
+    "date": "2024-06-16"
+  },
+  {
+    "id": 11,
+    "label": "concert tickets",
+    "note": "tickets for a concert",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "100",
+    "date": "2024-06-15"
+  },
+  {
+    "id": 12,
+    "label": "car maintenance",
+    "note": "annual car servicing",
+    "category": "transport",
+    "type": "expense",
+    "amount": "200",
+    "date": "2024-06-14"
+  },
+  {
+    "id": 13,
+    "label": "book purchase",
+    "note": "buying a new book",
+    "category": "education",
+    "type": "expense",
+    "amount": "25",
+    "date": "2024-06-13"
+  },
+  {
+    "id": 14,
+    "label": "movie night",
+    "note": "tickets for a movie",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "30",
+    "date": "2024-06-12"
+  },
+  {
+    "id": 15,
+    "label": "gift",
+    "note": "birthday gift for a friend",
+    "category": "gifts",
+    "type": "expense",
+    "amount": "50",
+    "date": "2024-06-11"
+  },
+  {
+    "id": 16,
+    "label": "rent",
+    "note": "apartment rent payment",
+    "category": "housing",
+    "type": "expense",
+    "amount": "1200",
+    "date": "2024-07-30"
+  },
+  {
+    "id": 17,
+    "label": "car repair",
+    "note": "vehicle repair service",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "300",
+    "date": "2024-08-01"
+  },
+  {
+    "id": 18,
+    "label": "groceries",
+    "note": "weekly groceries shopping",
+    "category": "food",
+    "type": "expense",
+    "amount": "150",
+    "date": "2024-08-03"
+  },
+  {
+    "id": 19,
+    "label": "movie",
+    "note": "cinema outing",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "40",
+    "date": "2024-08-05"
+  },
+  {
+    "id": 20,
+    "label": "bonus",
+    "note": "project bonus",
+    "category": "income",
+    "type": "income",
+    "amount": "800",
+    "date": "2024-08-10"
+  },
+  {
+    "id": 100,
+    "label": "insurance",
+    "note": "car insurance premium",
+    "category": "insurance",
+    "type": "expense",
+    "amount": "600",
+    "date": "2025-01-10"
+  },
+  {
+    "id": 21,
+    "label": "utility bills",
+    "note": "electricity and water charges",
+    "category": "housing",
+    "type": "expense",
+    "amount": "200",
+    "date": "2024-08-12"
+  },
+  {
+    "id": 22,
+    "label": "gym membership",
+    "note": "monthly gym subscription",
+    "category": "health",
+    "type": "expense",
+    "amount": "50",
+    "date": "2024-08-15"
+  },
+  {
+    "id": 23,
+    "label": "freelance payment",
+    "note": "website development project",
+    "category": "income",
+    "type": "income",
+    "amount": "1500",
+    "date": "2024-08-18"
+  },
+  {
+    "id": 24,
+    "label": "dining out",
+    "note": "restaurant dinner",
+    "category": "food",
+    "type": "expense",
+    "amount": "70",
+    "date": "2024-08-20"
+  },
+  {
+    "id": 25,
+    "label": "gift",
+    "note": "birthday gift for a friend",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "100",
+    "date": "2024-08-25"
+  },
+  {
+    "id": 26,
+    "label": "bike repair",
+    "note": "maintenance and servicing",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "120",
+    "date": "2024-09-02"
+  },
+  {
+    "id": 27,
+    "label": "office supplies",
+    "note": "notebooks and pens for work",
+    "category": "miscellaneous",
+    "type": "expense",
+    "amount": "40",
+    "date": "2024-09-05"
+  },
+  {
+    "id": 28,
+    "label": "investment",
+    "note": "stock market profit",
+    "category": "investment",
+    "type": "income",
+    "amount": "300",
+    "date": "2024-09-10"
+  },
+  {
+    "id": 29,
+    "label": "pet care",
+    "note": "vet visit and medication",
+    "category": "pets",
+    "type": "expense",
+    "amount": "150",
+    "date": "2024-09-12"
+  },
+  {
+    "id": 30,
+    "label": "freelance earnings",
+    "note": "photography assignment",
+    "category": "income",
+    "type": "income",
+    "amount": "400",
+    "date": "2024-09-18"
+  },
+  {
+    "id": 31,
+    "label": "phone bill",
+    "note": "monthly mobile bill",
+    "category": "utilities",
+    "type": "expense",
+    "amount": "60",
+    "date": "2024-09-20"
+  },
+  {
+    "id": 32,
+    "label": "travel",
+    "note": "weekend getaway trip",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "400",
+    "date": "2024-09-25"
+  },
+  {
+    "id": 33,
+    "label": "bonus",
+    "note": "end of project bonus",
+    "category": "income",
+    "type": "income",
+    "amount": "1200",
+    "date": "2024-10-01"
+  },
+  {
+    "id": 34,
+    "label": "clothing",
+    "note": "new wardrobe shopping",
+    "category": "clothing",
+    "type": "expense",
+    "amount": "300",
+    "date": "2024-10-07"
+  },
+  {
+    "id": 35,
+    "label": "medical",
+    "note": "routine health checkup",
+    "category": "health",
+    "type": "expense",
+    "amount": "100",
+    "date": "2024-10-10"
+  },
+  {
+    "id": 36,
+    "label": "online course",
+    "note": "subscription to programming course",
+    "category": "education",
+    "type": "expense",
+    "amount": "200",
+    "date": "2024-10-15"
+  },
+  {
+    "id": 37,
+    "label": "freelance project",
+    "note": "mobile app development earnings",
+    "category": "income",
+    "type": "income",
+    "amount": "1800",
+    "date": "2024-10-20"
+  },
+  {
+    "id": 38,
+    "label": "concert tickets",
+    "note": "live music concert",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "120",
+    "date": "2024-10-25"
+  },
+  {
+    "id": 39,
+    "label": "home maintenance",
+    "note": "repair work and cleaning",
+    "category": "housing",
+    "type": "expense",
+    "amount": "300",
+    "date": "2024-11-02"
+  },
+  {
+    "id": 40,
+    "label": "dividend",
+    "note": "stock dividend payment",
+    "category": "investment",
+    "type": "income",
+    "amount": "500",
+    "date": "2024-11-05"
+  },
+  {
+    "id": 41,
+    "label": "monthly rent",
+    "note": "apartment lease payment",
+    "category": "housing",
+    "type": "expense",
+    "amount": "1200",
+    "date": "2024-11-10"
+  },
+  {
+    "id": 42,
+    "label": "groceries",
+    "note": "weekly grocery shopping",
+    "category": "food",
+    "type": "expense",
+    "amount": "180",
+    "date": "2024-11-12"
+  },
+  {
+    "id": 43,
+    "label": "car loan",
+    "note": "monthly car loan payment",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "400",
+    "date": "2024-11-15"
+  },
+  {
+    "id": 44,
+    "label": "freelance payment",
+    "note": "web design project earnings",
+    "category": "income",
+    "type": "income",
+    "amount": "2000",
+    "date": "2024-11-20"
+  },
+  {
+    "id": 45,
+    "label": "coffee shop",
+    "note": "breakfast with friends",
+    "category": "food",
+    "type": "expense",
+    "amount": "35",
+    "date": "2024-11-22"
+  },
+  {
+    "id": 46,
+    "label": "electronics",
+    "note": "new laptop purchase",
+    "category": "electronics",
+    "type": "expense",
+    "amount": "1000",
+    "date": "2024-11-25"
+  },
+  {
+    "id": 47,
+    "label": "holiday trip",
+    "note": "vacation flight booking",
+    "category": "travel",
+    "type": "expense",
+    "amount": "700",
+    "date": "2024-12-01"
+  },
+  {
+    "id": 48,
+    "label": "freelance earnings",
+    "note": "writing project payment",
+    "category": "income",
+    "type": "income",
+    "amount": "450",
+    "date": "2024-12-05"
+  },
+  {
+    "id": 49,
+    "label": "insurance premium",
+    "note": "health insurance annual payment",
+    "category": "insurance",
+    "type": "expense",
+    "amount": "900",
+    "date": "2024-12-10"
+  },
+  {
+    "id": 50,
+    "label": "gas",
+    "note": "monthly fuel expenses",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "120",
+    "date": "2024-12-12"
+  },
+  {
+    "id": 51,
+    "label": "streaming service",
+    "note": "monthly subscription renewal",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "15",
+    "date": "2024-12-14"
+  },
+  {
+    "id": 52,
+    "label": "christmas shopping",
+    "note": "gifts and decor",
+    "category": "miscellaneous",
+    "type": "expense",
+    "amount": "350",
+    "date": "2024-12-20"
+  },
+  {
+    "id": 53,
+    "label": "bonus",
+    "note": "year-end bonus from work",
+    "category": "income",
+    "type": "income",
+    "amount": "2500",
+    "date": "2024-12-24"
+  },
+  {
+    "id": 54,
+    "label": "medical expenses",
+    "note": "dental procedure cost",
+    "category": "health",
+    "type": "expense",
+    "amount": "250",
+    "date": "2024-12-28"
+  },
+  {
+    "id": 55,
+    "label": "charity",
+    "note": "donation to a local organization",
+    "category": "charity",
+    "type": "expense",
+    "amount": "100",
+    "date": "2024-12-30"
+  },
+  {
+    "id": 56,
+    "label": "bike fuel",
+    "note": "monthly petrol charges",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "90",
+    "date": "2025-01-05"
+  },
+  {
+    "id": 57,
+    "label": "software purchase",
+    "note": "graphics design software",
+    "category": "electronics",
+    "type": "expense",
+    "amount": "300",
+    "date": "2025-01-08"
+  },
+  {
+    "id": 58,
+    "label": "investment return",
+    "note": "stock sale profits",
+    "category": "investment",
+    "type": "income",
+    "amount": "600",
+    "date": "2025-01-12"
+  },
+  {
+    "id": 59,
+    "label": "books",
+    "note": "technical books for learning",
+    "category": "education",
+    "type": "expense",
+    "amount": "150",
+    "date": "2025-01-15"
+  },
+  {
+    "id": 60,
+    "label": "weekend trip",
+    "note": "travel to nearby city",
+    "category": "travel",
+    "type": "expense",
+    "amount": "450",
+    "date": "2025-01-18"
+  },
+  {
+    "id": 61,
+    "label": "gifts",
+    "note": "anniversary gifts",
+    "category": "miscellaneous",
+    "type": "expense",
+    "amount": "200",
+    "date": "2025-01-20"
+  },
+  {
+    "id": 62,
+    "label": "gaming subscription",
+    "note": "annual gaming service payment",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "60",
+    "date": "2025-01-22"
+  },
+  {
+    "id": 63,
+    "label": "freelance project",
+    "note": "consulting fees",
+    "category": "income",
+    "type": "income",
+    "amount": "1200",
+    "date": "2025-01-25"
+  },
+  {
+    "id": 64,
+    "label": "child education",
+    "note": "school tuition fees",
+    "category": "education",
+    "type": "expense",
+    "amount": "800",
+    "date": "2025-01-28"
+  },
+  {
+    "id": 65,
+    "label": "pet supplies",
+    "note": "food and toys for pets",
+    "category": "pets",
+    "type": "expense",
+    "amount": "75",
+    "date": "2025-02-01"
+  },
+  {
+    "id": 66,
+    "label": "office rent",
+    "note": "shared workspace rental fee",
+    "category": "housing",
+    "type": "expense",
+    "amount": "600",
+    "date": "2025-02-03"
+  },
+  {
+    "id": 67,
+    "label": "laundry",
+    "note": "monthly laundry service",
+    "category": "housing",
+    "type": "expense",
+    "amount": "50",
+    "date": "2025-02-05"
+  },
+  {
+    "id": 68,
+    "label": "groceries",
+    "note": "bi-weekly grocery shopping",
+    "category": "food",
+    "type": "expense",
+    "amount": "220",
+    "date": "2025-02-10"
+  },
+  {
+    "id": 69,
+    "label": "internet",
+    "note": "broadband subscription renewal",
+    "category": "utilities",
+    "type": "expense",
+    "amount": "40",
+    "date": "2025-02-12"
+  },
+  {
+    "id": 70,
+    "label": "fitness equipment",
+    "note": "purchase of home workout items",
+    "category": "health",
+    "type": "expense",
+    "amount": "500",
+    "date": "2025-02-14"
+  },
+  {
+    "id": 71,
+    "label": "freelance income",
+    "note": "mobile app design payment",
+    "category": "income",
+    "type": "income",
+    "amount": "1600",
+    "date": "2025-02-18"
+  },
+  {
+    "id": 72,
+    "label": "car maintenance",
+    "note": "tire replacement and servicing",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "300",
+    "date": "2025-02-20"
+  },
+  {
+    "id": 73,
+    "label": "vacation",
+    "note": "hotel booking",
+    "category": "travel",
+    "type": "expense",
+    "amount": "1200",
+    "date": "2025-02-25"
+  },
+  {
+    "id": 74,
+    "label": "clothing",
+    "note": "new shoes and jackets",
+    "category": "clothing",
+    "type": "expense",
+    "amount": "250",
+    "date": "2025-02-28"
+  },
+  {
+    "id": 75,
+    "label": "investment return",
+    "note": "dividend payout",
+    "category": "investment",
+    "type": "income",
+    "amount": "500",
+    "date": "2025-03-01"
+  },
+  {
+    "id": 76,
+    "label": "utility bills",
+    "note": "electricity and water payment",
+    "category": "housing",
+    "type": "expense",
+    "amount": "180",
+    "date": "2025-03-05"
+  },
+  {
+    "id": 77,
+    "label": "freelance payout",
+    "note": "blog writing payment",
+    "category": "income",
+    "type": "income",
+    "amount": "750",
+    "date": "2025-03-08"
+  },
+  {
+    "id": 78,
+    "label": "car loan",
+    "note": "monthly installment payment",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "400",
+    "date": "2025-03-12"
+  },
+  {
+    "id": 79,
+    "label": "furniture",
+    "note": "purchase of office chair",
+    "category": "housing",
+    "type": "expense",
+    "amount": "150",
+    "date": "2025-03-15"
+  },
+  {
+    "id": 80,
+    "label": "app subscription",
+    "note": "premium music app subscription",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "10",
+    "date": "2025-03-18"
+  },
+  {
+    "id": 81,
+    "label": "concert tickets",
+    "note": "live performance event",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "80",
+    "date": "2025-03-20"
+  },
+  {
+    "id": 82,
+    "label": "client project",
+    "note": "software development earnings",
+    "category": "income",
+    "type": "income",
+    "amount": "2000",
+    "date": "2025-03-25"
+  },
+  {
+    "id": 83,
+    "label": "movie night",
+    "note": "cinema outing with family",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "60",
+    "date": "2025-03-28"
+  },
+  {
+    "id": 84,
+    "label": "groceries",
+    "note": "monthly grocery stock-up",
+    "category": "food",
+    "type": "expense",
+    "amount": "300",
+    "date": "2025-04-01"
+  },
+  {
+    "id": 85,
+    "label": "medical bills",
+    "note": "emergency healthcare cost",
+    "category": "health",
+    "type": "expense",
+    "amount": "500",
+    "date": "2025-04-05"
+  },
+  {
+    "id": 86,
+    "label": "holiday shopping",
+    "note": "clothing and accessories",
+    "category": "miscellaneous",
+    "type": "expense",
+    "amount": "400",
+    "date": "2025-04-10"
+  },
+  {
+    "id": 87,
+    "label": "pet grooming",
+    "note": "vet visit and grooming services",
+    "category": "pets",
+    "type": "expense",
+    "amount": "100",
+    "date": "2025-04-15"
+  },
+  {
+    "id": 88,
+    "label": "investment earnings",
+    "note": "real estate sale profits",
+    "category": "investment",
+    "type": "income",
+    "amount": "5000",
+    "date": "2025-04-20"
+  },
+  {
+    "id": 89,
+    "label": "bike service",
+    "note": "annual maintenance",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "150",
+    "date": "2025-04-22"
+  },
+  {
+    "id": 90,
+    "label": "books",
+    "note": "novels and self-help books",
+    "category": "education",
+    "type": "expense",
+    "amount": "120",
+    "date": "2025-04-25"
+  },
+  {
+    "id": 91,
+    "label": "consulting fee",
+    "note": "IT strategy consulting income",
+    "category": "income",
+    "type": "income",
+    "amount": "1800",
+    "date": "2025-04-30"
+  },
+  {
+    "id": 92,
+    "label": "kids activity",
+    "note": "summer camp fee",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "300",
+    "date": "2025-05-01"
+  },
+  {
+    "id": 93,
+    "label": "train ticket",
+    "note": "travel to the city center",
+    "category": "transportation",
+    "type": "expense",
+    "amount": "40",
+    "date": "2025-05-05"
+  },
+  {
+    "id": 94,
+    "label": "gaming hardware",
+    "note": "purchase of gaming console",
+    "category": "electronics",
+    "type": "expense",
+    "amount": "400",
+    "date": "2025-05-08"
+  },
+  {
+    "id": 95,
+    "label": "music lesson",
+    "note": "monthly piano class fee",
+    "category": "education",
+    "type": "expense",
+    "amount": "150",
+    "date": "2025-05-10"
+  },
+  {
+    "id": 96,
+    "label": "freelance payout",
+    "note": "graphic design project",
+    "category": "income",
+    "type": "income",
+    "amount": "1200",
+    "date": "2025-05-15"
+  },
+  {
+    "id": 97,
+    "label": "new wardrobe",
+    "note": "clothing and accessories purchase",
+    "category": "clothing",
+    "type": "expense",
+    "amount": "500",
+    "date": "2025-05-18"
+  },
+  {
+    "id": 98,
+    "label": "electric bill",
+    "note": "monthly electricity payment",
+    "category": "utilities",
+    "type": "expense",
+    "amount": "100",
+    "date": "2025-05-20"
+  },
+  {
+    "id": 99,
+    "label": "insurance premium",
+    "note": "annual car insurance renewal",
+    "category": "insurance",
+    "type": "expense",
+    "amount": "800",
+    "date": "2025-05-25"
+  },
+  {
+    "id": 101,
+    "label": "party",
+    "note": "House party",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "1200",
+    "date": "2024-11-10"
+  },
+  {
+    "id": 102,
+    "label": "party",
+    "note": "House party",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "1200",
+    "date": "2024-11-11"
+  },
+  {
+    "id": 103,
+    "label": "meet up",
+    "note": "Meeting with Friends",
+    "category": "entertainment",
+    "type": "expense",
+    "amount": "1200",
+    "date": "2025-11-11"
+  }
+]
