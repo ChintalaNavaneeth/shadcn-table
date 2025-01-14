@@ -36,7 +36,7 @@ export function DataTableToolbar<TData>({
     <div className="flex flex-wrap items-center justify-between">
       <div className="flex flex-1 flex-wrap items-center gap-2">
         <Input
-          placeholder="Filter labels..."
+          placeholder="Search ..."
           value={(table.getColumn("note")?.getFilterValue() as string) ?? ""}
           onChange={(event) => {
             table.getColumn("note")?.setFilterValue(event.target.value);
@@ -73,6 +73,8 @@ export function DataTableToolbar<TData>({
           className="w-[250px] h-8"
           variant="outline"
         />
+
+        
       </div>
 
       <DataTableViewOptions table={table} />

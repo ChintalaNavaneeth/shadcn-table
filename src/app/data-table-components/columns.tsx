@@ -3,11 +3,31 @@
 import { ColumnDef } from "@tanstack/react-table";
 import { Expense } from "./schema";
 import { DataTableColumnHeader } from "./data-table-column-header";
-import { DataTableRowActions } from "./data-table-row-actions";
-import { TrendingUp, TrendingDown } from "lucide-react";
+import { TrendingUp, TrendingDown, Copy } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export const columns: ColumnDef<Expense>[] = [
+  {
+    id: "actions",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="" />
+    ),
+    cell: ({ row }) => (
+      <button
+        onClick={() => {
+          const rowData = JSON.stringify(row.original, null, 2);
+          navigator.clipboard.writeText(rowData).then(() => {
+            console.log("Row data copied to clipboard:", rowData);
+          }).catch(err => {
+            console.error("Failed to copy row data:", err);
+          });
+        }}
+        title="Copy row data in JSON format"
+      >
+        ...
+      </button>
+    )
+  },
   {
     accessorKey: "label",
     header: ({ column }) => (
@@ -120,9 +140,5 @@ export const columns: ColumnDef<Expense>[] = [
       const [startDate, endDate] = value;
       return rowDate >= startDate && rowDate <= endDate;
     }
-  },
-  {
-    id: "actions",
-    cell: ({ row }) => <DataTableRowActions row={row} />
   }
 ];
